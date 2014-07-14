@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class deque</title>
+			<link rel="stylesheet" href="../../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class deque</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Deque.php file that contains one class implementation  named Deque and a function that provides an interface  to the user for interacting with the functionality of the  deque class.</p>
+<p class="description"><p>LICENSE: Licensed Under Coeus Solutions GmBH</p></p>
+	<ul class="tags">
+				<li><span class="field">version:</span> v 1.0</li>
+				<li><span class="field">copyright:</span> Coeus-Solutions GmBH</li>
+				<li><span class="field">link:</span> Hyperlink</li>
+				<li><span class="field">since:</span> File available since Release</li>
+				<li><span class="field">license:</span> License</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_deque.php.html">/deque.php</a> (line <span class="field">22</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$dequeArray" title="details" class="var-name">$dequeArray</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$front" title="details" class="var-name">$front</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$length" title="details" class="var-name">$length</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$rear" title="details" class="var-name">$rear</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																												
+												<div class="method-definition">
+											<span class="method-result">Value</span>
+										<a href="#dequeueFront" title="details" class="method-name">dequeueFront</a>
+											(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Value</span>
+										<a href="#dequeueRear" title="details" class="method-name">dequeueRear</a>
+											(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Nill</span>
+										<a href="#displayDeque" title="details" class="method-name">displayDeque</a>
+											(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Nothing</span>
+										<a href="#pushFront" title="details" class="method-name">pushFront</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Nothing</span>
+										<a href="#pushRear" title="details" class="method-name">pushRear</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$dequeArray" id="$dequeArray"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$dequeArray</span>
+			 = <span class="var-default">array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</span>			(line <span class="line-number">47</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$front" id="$front"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$front</span>
+			 = <span class="var-default"> -1</span>			(line <span class="line-number">45</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Deque class</p>
+<p class="description"><p>This Class Implements the functionality of a Deque/Double Ended Queue using array  of size 10. This class enables the user to interact with the deque array and perform  all the functionalities of Deque. User can Enqeue Elements at the Front  and Rear.  Dequeue elements from front and rear.</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Muhammad Raza &lt;<a href="mailto:muhammad.raza@coeus-solutions.de">muhammad.raza@coeus-solutions.de</a>&gt;</li>
+				<li><span class="field">version:</span> v 1.0</li>
+				<li><span class="field">copyright:</span> Coeus-Solutions GmBH</li>
+				<li><span class="field">link:</span> Hyperlink</li>
+				<li><span class="field">deprecated:</span> Class deprecated in Release</li>
+				<li><span class="field">since:</span> Class available since Release</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">license:</span> License</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$length" id="$length"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$length</span>
+			 = <span class="var-default"> 0</span>			(line <span class="line-number">48</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$rear" id="$rear"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$rear</span>
+			 = <span class="var-default"> 10</span>			(line <span class="line-number">46</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methoddequeueFront" id="dequeueFront"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">dequeueFront</span> (line <span class="line-number">143</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Dequeue the Value from the front of Deque</p>
+<p class="description"><p>This method dequeues the integer value from the front of deque  This method first checks the length (Number of Elements)  in Deque if length is greater than 0 then it dequeues the integer  from the front of deque otherwise throws an exception.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> at Front of Deque</li>
+				<li><span class="field">deprecated:</span> Method deprecated in Release</li>
+				<li><span class="field">since:</span> Method available since Release</li>
+				<li><span class="field">throws:</span> Exception the Deque Empty exception containing message that the                    Deque is empty. Thrown if length or number                    of elements in deque are equal to 0.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Value</span>
+		<span class="method-name">
+			dequeueFront
+		</span>
+					(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">Nill</span>
+				<span class="var-name">0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddequeueRear" id="dequeueRear"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">dequeueRear</span> (line <span class="line-number">178</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Dequeue the Value from the rear of Deque</p>
+<p class="description"><p>This method dequeues the integer value from the rear of deque  This method first checks the length (Number of Elements)  in Deque if length is greater than 0 then it dequeues the integer  from the front of deque otherwise throws an exception.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> at Front of Deque</li>
+				<li><span class="field">deprecated:</span> Method deprecated in Release</li>
+				<li><span class="field">since:</span> Method available since Release</li>
+				<li><span class="field">throws:</span> Exception the Deque Empty exception containing message that the                    Deque is empty. Thrown if length or number                    of elements in deque are equal to 0.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Value</span>
+		<span class="method-name">
+			dequeueRear
+		</span>
+					(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">Nill</span>
+				<span class="var-name">0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddisplayDeque" id="displayDeque"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">displayDeque</span> (line <span class="line-number">210</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Displays the elements of Deque</p>
+<p class="description"><p>This method displays the contents/Elements of the Deque  This method first checks the length of the Deque if it is greater  than zero then it displays the contents/Elements of Deque otherwise it  displays a message that Deque is empty.</p></p>
+	<ul class="tags">
+				<li><span class="field">deprecated:</span> Method deprecated in Release</li>
+				<li><span class="field">since:</span> Method available since Release</li>
+				<li><span class="field">throws:</span> Nill</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Nill</span>
+		<span class="method-name">
+			displayDeque
+		</span>
+					(<span class="var-type">Nill</span>&nbsp;<span class="var-name">0</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">Nill</span>
+				<span class="var-name">0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodpushFront" id="pushFront"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">pushFront</span> (line <span class="line-number">107</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enqueue the Given Variable at the front of Deque</p>
+<p class="description"><p>This method enqueues the integer carried by value into the deque  at front. This method first checks the length (Number of Elements)  in Deque if length is smaller than 10 then it enqueues the integer in deque  otherwise throws an exception</p></p>
+	<ul class="tags">
+				<li><span class="field">deprecated:</span> Method deprecated in Release</li>
+				<li><span class="field">since:</span> Method available since Release</li>
+				<li><span class="field">throws:</span> Exception the Deque Full exception containing message that the                    Deque is full. Thrown if length or number                    of elements in deque are equal to 10.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Nothing</span>
+		<span class="method-name">
+			pushFront
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: the value to enter in deque</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodpushRear" id="pushRear"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">pushRear</span> (line <span class="line-number">71</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enqueue the Given Variable at the Rear of Deque</p>
+<p class="description"><p>This method enqueues the integer carried by value into the deque  at Rear. This method first checks the length (Number of Elements)  in Deque if length is smaller than 10 then it enqueues the integer in deque  otherwise throws an exception</p></p>
+	<ul class="tags">
+				<li><span class="field">deprecated:</span> Method deprecated in Release</li>
+				<li><span class="field">since:</span> Method available since Release</li>
+				<li><span class="field">throws:</span> Exception the Deque Full exception containing message that the                    Deque is full. Thrown if length or number                    of elements in deque are equal to 10.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Nothing</span>
+		<span class="method-name">
+			pushRear
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$value</span><span class="var-description">: the value to enter in deque</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Mon, 14 Jul 2014 17:09:27 +0500 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
