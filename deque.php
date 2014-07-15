@@ -1,80 +1,83 @@
 <?php
 
 /**
-* Deque.php file that contains one class implementation 
+* Contains definition of Dequeue class
+* 
+* This file that contains one class implementation 
 * named Deque and a function that provides an interface
 * to the user for interacting with the functionality of the 
-* deque class.
+* Deque class.
+*
 *
 * LICENSE: Licensed Under Coeus Solutions GmBH
 *
 * @category   Training/Learning PHP
 * @package    Task2
-* @subpackage Nil
 * @copyright  Coeus-Solutions GmBH 
-* @license    License hyperlink and type
 * @version    v 1.0
 * @link       Hyperlink to file/package
 * @since      File available since Release
 */
 
 
-class deque 
+
+/**
+* Deque class
+*
+* This Class Implements the functionality of a Deque/Double Ended Queue using array
+* of size 10. This class enables the user to interact with the deque array and perform
+* all the functionalities of Deque. User can Enqeue Elements at the Front  and Rear.
+* Dequeue elements from front and rear.
+* 
+* @package    Task2
+* @author     Muhammad Raza <muhammad.raza@coeus-solutions.de>
+* @category   Training/Learning PHP
+* @copyright  Coeus-Solutions GmBH
+* @license    License hyperlink and type
+* @version    v 1.0
+* @link       Hyperlink to file/package
+* @since      Class available since Release
+* @deprecated Class deprecated in Release
+*/
+
+class Deque 
 {
-    /**
- * Deque class
- *
- * This Class Implements the functionality of a Deque/Double Ended Queue using array
- * of size 10. This class enables the user to interact with the deque array and perform
- * all the functionalities of Deque. User can Enqeue Elements at the Front  and Rear.
- * Dequeue elements from front and rear.
- * 
- * @package    Task2
- * @author     Muhammad Raza <muhammad.raza@coeus-solutions.de>
- * @category   Training/Learning PHP
- * @subpackage Nil
- * @copyright  Coeus-Solutions GmBH
- * @license    License hyperlink and type
- * @version    v 1.0
- * @link       Hyperlink to file/package
- * @since      Class available since Release
- * @deprecated Class deprecated in Release
-
- */
-
+   
     public $front = -1; //Front Index of Deque
     public $rear = 10; //Rear Index of Deque
     public $dequeArray = array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0); //Deque Array of Size 10
     public $length = 0; //Length of Deque / Number of Elements Present in Deque.
 
-    //Push Rear Function//
+    
 /**
- * Enqueue the Given Variable at the Rear of Deque
- *
- * This method enqueues the integer carried by value into the deque
- * at Rear. This method first checks the length (Number of Elements)
- * in Deque if length is smaller than 10 then it enqueues the integer in deque
- * otherwise throws an exception
- *
- * @param int $value the value to enter in deque
- *
- * @return Nothing
- *
- * @throws Exception the Deque Full exception containing message that the
- *                   Deque is full. Thrown if length or number 
- *                   of elements in deque are equal to 10.
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+* 
+* Enqueues the given variable at the rear of dequeue
+*
+*
+* This method enqueues the integer carried by value into the deque
+* at Rear. This method first checks the length (Number of Elements)
+* in Deque if length is smaller than 10 then it enqueues the integer in deque
+* otherwise throws an exception
+*
+* @param int $value the value to enter in deque
+*
+*
+* @throws Exception the Deque Full exception containing message that the
+*                   Deque is full. Thrown if length or number 
+*                   of elements in deque are equal to 10.
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
     public function pushRear($value) {
         if ($this->length == 10 
            || $this->front == $this->rear) {
-            throw new Exception("Queue is Full\n");   //Exception Handling// 	
+            throw new Exception("Queue is Full");   //Exception Handling// 	
         }
 
         if ($this->rear == 10 
+           && $this->rear > 0
            || $this->rear > $this->front) {
             $this->rear = $this->rear - 1;
             $this->dequeArray[$this->rear] = $value;
@@ -83,27 +86,26 @@ class deque
         }
     }
 
-    //Push Front Function//
+  
 /**
- * Enqueue the Given Variable at the front of Deque
- *
- * This method enqueues the integer carried by value into the deque
- * at front. This method first checks the length (Number of Elements)
- * in Deque if length is smaller than 10 then it enqueues the integer in deque
- * otherwise throws an exception
- *
- * @param int $value the value to enter in deque
- *
- * @return Nothing
- *
- * @throws Exception the Deque Full exception containing message that the
- *                   Deque is full. Thrown if length or number 
- *                   of elements in deque are equal to 10.
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+* Enqueue the Given Variable at the front of Deque
+*
+* This method enqueues the integer carried by value into the deque
+* at front. This method first checks the length (Number of Elements)
+* in Deque if length is smaller than 10 then it enqueues the integer in deque
+* otherwise throws an exception
+*
+* @param int $value the value to enter in deque
+*
+*
+* @throws Exception the Deque Full exception containing message that the
+*                   Deque is full. Thrown if length or number 
+*                   of elements in deque are equal to 10.
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
     public function pushFront($value) {
         if ($this->length == 10 
            || $this->front == $this->rear) {
@@ -119,27 +121,26 @@ class deque
         }
     }
 
-    //Dequeue Fron Front Function//
+    
 /**
- * Dequeue the Value from the front of Deque
- *
- * This method dequeues the integer value from the front of deque
- * This method first checks the length (Number of Elements)
- * in Deque if length is greater than 0 then it dequeues the integer 
- * from the front of deque otherwise throws an exception.
- *
- * @param Nill
- *
- * @return Value at Front of Deque
- *
- * @throws Exception the Deque Empty exception containing message that the
- *                   Deque is empty. Thrown if length or number 
- *                   of elements in deque are equal to 0.
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+* Dequeue the Value from the front of Deque
+*
+* This method dequeues the integer value from the front of deque
+* This method first checks the length (Number of Elements)
+* in Deque if length is greater than 0 then it dequeues the integer 
+* from the front of deque otherwise throws an exception.
+*
+*
+* @return Value at Front of Deque
+*
+* @throws Exception the Deque Empty exception containing message that the
+*         Deque is empty. Thrown if length or number 
+*         of elements in deque are equal to 0.
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
     public function dequeueFront() {
         $value = 0;
         if ($this->rear == 10 
@@ -154,27 +155,26 @@ class deque
         }
     }
 
-    //Dequeue From Rear Function//
+   
 /**
- * Dequeue the Value from the rear of Deque
- *
- * This method dequeues the integer value from the rear of deque
- * This method first checks the length (Number of Elements)
- * in Deque if length is greater than 0 then it dequeues the integer 
- * from the front of deque otherwise throws an exception.
- *
- * @param Nill
- *
- * @return Value at Front of Deque
- *
- * @throws Exception the Deque Empty exception containing message that the
- *                   Deque is empty. Thrown if length or number 
- *                   of elements in deque are equal to 0.
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+* Dequeue the Value from the rear of Deque
+*
+* This method dequeues the integer value from the rear of deque
+* This method first checks the length (Number of Elements)
+* in Deque if length is greater than 0 then it dequeues the integer 
+* from the front of deque otherwise throws an exception.
+*
+*
+* @return Value at Front of Deque
+*
+* @throws Exception the Deque Empty exception containing message that the
+*                   Deque is empty. Thrown if length or number 
+*                   of elements in deque are equal to 0.
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
     public function dequeueRear() {
         $value = 0;
         if ($this->rear == 10 
@@ -188,25 +188,21 @@ class deque
         }
     }
 
-    //Display Deque Function//
+    
 /**
- * Displays the elements of Deque
- *
- * This method displays the contents/Elements of the Deque
- * This method first checks the length of the Deque if it is greater
- * than zero then it displays the contents/Elements of Deque otherwise it 
- * displays a message that Deque is empty.
- *
- * @param Nill
- *
- * @return Nill
- *
- * @throws Nill
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+* Displays the elements of Deque
+*
+* This method displays the contents/Elements of the Deque
+* This method first checks the length of the Deque if it is greater
+* than zero then it displays the contents/Elements of Deque otherwise it 
+* displays a message that Deque is empty.
+*
+*
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
     public function displayDeque() {
         if ($this->front == -1 
             && $this->rear == 11 
@@ -228,26 +224,21 @@ class deque
 
 }
 
-//Deque Run Function//
- /**
- * Interface for Executing functionality of Dequeue Class
- *
- * This method asks the user to give input on the basis of that it 
- * enables to user to interact with class functionality.
- *
- *
- * @param Nill
- *
- * @return Nil
- *
- * @throws Nil
- *
- * @access public
- * @since Method available since Release
- * @deprecated Method deprecated in Release
- */
+
+/**
+* Interface for Executing functionality of Dequeue Class
+*
+* This method asks the user to give input on the basis of that it 
+* enables to user to interact with class functionality.
+*
+* 
+*
+* @access public
+* @since Method available since Release
+* @deprecated Method deprecated in Release
+*/
 function Deque_run() {
-    $dequeObj = new deque();
+    $dequeObj = new Deque();
 
     while (1) {
         echo "1-Enqueue Front\n";
