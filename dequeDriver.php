@@ -11,7 +11,7 @@
 * @subpackage Nil
 * @copyright  Coeus-Solutions GmBH 
 * @license    License hyperlink and type
-* @version    v 1.0
+* @version    v 1.2
 * @link       Hyperlink to file/package
 * @since      File available since Release
 */
