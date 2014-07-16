@@ -47,7 +47,7 @@ class Deque
     public $rear = 10; //Rear Index of Deque
     public $front2=0; //Front Index for Deqeue Purpose
     public $rear2=9; //Rear Index for Deqeue Purpose
-    public $dequeArray = array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0); //Deque Array of Size 10
+    public $dequeArray = array();  //Deque Array of Size 10
     public $length = 0; //Length of Deque / Number of Elements Present in Deque.
 
     
@@ -79,7 +79,6 @@ class Deque
         }
 
         if ($this->rear == 10 
-           && $this->rear > 0
            || $this->rear > $this->front) {
             $this->rear = $this->rear - 1;
             $this->dequeArray[$this->rear] = $value;
@@ -194,7 +193,7 @@ class Deque
         if ($this->rear == 10 
            && $this->front == -1
            || $this->length <=0) {
-            throw new Exception("\nDequeue Empty!!!\n");
+            throw new Exception("\nDequeue Empty!!!");
         } elseif($this->rear > 9 
               && $this->front2 <= $this->front) {
             $value = $this->dequeArray[$this->front2];
