@@ -14,7 +14,7 @@
 * @category   Training/Learning PHP
 * @package    Task2
 * @copyright  Coeus-Solutions GmBH 
-* @version    v 1.0
+* @version    v 1.2
 * @link       Hyperlink to file/package
 * @since      File available since Release
 */
@@ -34,7 +34,7 @@
 * @category   Training/Learning PHP
 * @copyright  Coeus-Solutions GmBH
 * @license    License hyperlink and type
-* @version    v 1.0
+* @version    v 1.2
 * @link       Hyperlink to file/package
 * @since      Class available since Release
 * @deprecated Class deprecated in Release
@@ -45,6 +45,8 @@ class Deque
    
     public $front = -1; //Front Index of Deque
     public $rear = 10; //Rear Index of Deque
+    public $front2=0; //Front Index for Deqeue Purpose
+    public $rear2=9; //Rear Index for Deqeue Purpose
     public $dequeArray = array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0); //Deque Array of Size 10
     public $length = 0; //Length of Deque / Number of Elements Present in Deque.
 
@@ -143,13 +145,25 @@ class Deque
 */
     public function dequeueFront() {
         $value = 0;
-        if ($this->rear == 10 
-           && $this->front == -1 
-           && $this->length==0) {
+        if ($this->length <=0) {
             throw new Exception("\nDequeue Empty!!!\n");
+
+        } elseif($this->front < 0 
+              && $this->rear2 >= $this->rear) {
+            $value = $this->dequeArray[$this->rear2];
+            $this->dequeArray[$this->rear2]=-9.999;
+            $this->rear2 = $this->rear2-1;
+            $this->length = $this->length - 1;
+            return $value;
+
         } else {
+
             $value = $this->dequeArray[$this->front];
+            while($value==-9.999){
             $this->front = $this->front - 1;
+            $value = $this->dequeArray[$this->front];    
+            }
+            
             $this->length = $this->length - 1;
             return $value;
         }
@@ -178,11 +192,24 @@ class Deque
     public function dequeueRear() {
         $value = 0;
         if ($this->rear == 10 
-           && $this->front == -1) {
+           && $this->front == -1
+           || $this->length <=0) {
             throw new Exception("\nDequeue Empty!!!\n");
+        } elseif($this->rear > 9 
+              && $this->front2 <= $this->front) {
+            $value = $this->dequeArray[$this->front2];
+            $this->dequeArray[$this->front2]=-9.999;
+            $this->front2 = $this->front2+1;
+            $this->length = $this->length - 1;
+            return $value;
+
         } else {
             $value = $this->dequeArray[$this->rear];
+            while($value==-9.999){
             $this->rear = $this->rear + 1;
+            $value = $this->dequeArray[$this->rear];    
+            }
+
             $this->length = $this->length - 1;
             return $value;
         }
