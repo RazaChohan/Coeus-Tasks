@@ -1,6 +1,7 @@
 -Important HR Policies
 Well, pretty much each policy is important to me, it depends on circumstances whether they are applied to me or not.
-Still I’m carrying most important of them to me below:
+Still I'm carrying most important of them to me below:
+
 =::::::	Attendance/Office timing Policies
 =>	Working days are from Monday to Friday and working time is from 9:00am to 6:00pm.
 =>	Late sitting is discouraged.
