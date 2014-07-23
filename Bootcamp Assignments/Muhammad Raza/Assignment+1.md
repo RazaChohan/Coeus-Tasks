@@ -75,8 +75,6 @@ Following policies are related to laptops and mobile usage. These policies are w
 | If  leave  is  taken  without  prior  sanction,  the  absence  should  be  notified  to  the concerned lead / supervisor or HR department on the same day through phone, SMS or via email | Leave taken with prior notification will be notified to specific supervisor     |
 | CL cannot be enchased| Not cashable.|
 
-
-
 ###Sick Leave Entitlement & Policy
 | Policy        | Why it is important for me?|
 | ------------- |:--------------------------:|
