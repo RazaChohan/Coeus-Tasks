@@ -2,7 +2,7 @@
 Well, pretty much each policy is important to me, it depends on circumstances whether they are applied to me or not.
 Still I'm carrying most important of them to me below:
 
-	**Attendance/Office timing Policies:**
+	**Attendence/Office timing policy:**
 *	Working days are from Monday to Friday and working time is from 9:00am to 6:00pm.
 *	Late sitting is discouraged.
 *	We have to put minimum of 40hrs of work per week and so 160hrs for month.
