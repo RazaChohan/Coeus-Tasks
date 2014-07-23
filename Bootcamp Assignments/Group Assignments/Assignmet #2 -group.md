@@ -57,8 +57,11 @@ Moreover  many other tools are used in company that differs from developer to de
 Coeus solutions is very much flexible in using any software development process. The decision that which process should be used depends upon the nature of the project. If project demands Rapid Development process to be used than this is used or if it requires Agile to be used than agile is used in short any software development process that is required for suits well with the project is used. In this way Coeus Solutions is very much adaptable when it comes to choice of a particular software development process. Following development life cycle are at least once used/exercised at Coeus.
 
 1) Iterative and incremental development
+
 2) Agile development
+
 3) Rapid application development
+
 4) Waterfall development 
 
 
