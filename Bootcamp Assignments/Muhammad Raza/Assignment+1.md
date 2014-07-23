@@ -15,8 +15,6 @@
 
 
 
-
-
 ##Executive Summary
 This report/assignment provides an analysis about which of the HR Policies of Coeus Solutions are important for me and what is the reason for its importance. This report not only covers the regular policies that are mentioned in the Coeus Policy documents but also some of the miscellaneous policies that I personally feel that I should know about and reason for the fact that why such policies are important for me are mentioned in this document. 
 
