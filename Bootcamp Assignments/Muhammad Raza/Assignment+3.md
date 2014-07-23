@@ -70,3 +70,157 @@ This Web application was tested for 50-60 users at once.But it was supposed to r
 
 ####Better Approach for Project
 Team lead of this project Mr. Imran Khan is of the opinion that this web application is taking too long for simple operation that can be improved by Node.js instead of Zend 1 framework because Zend loads all the libraries inspite of the fact that whether it needs them or not.
+
+### Team Lead 2
+
+####Team Lead Name: 
+Mr. Ghulam Murtaza
+
+####List of Projects Done in last Six months:
+
+- Store Expo
+- Swap Style
+- Love Knitting
+- At my Desk
+
+####Store Expo
+
+#####Current Status:
+Completed.
+
+#####Project URL:
+http://storexpo.de/
+
+#####Web or Mobile:
+Project is web based
+
+#####Deployed?
+Project is Deployed.
+
+#####Technologies used:
+- Zend 2 Framework
+- Javascript
+- mysql
+
+#####Project Brief Description:
+This project is actually a web application built for a client. This is a web application using which a user 
+can see the available property in a specific area and can purchase or invest in them. 
+
+#####Store Expo Testing
+This Web application was tested using black box testing technique. 
+
+
+
+#####Challenges
+| Challenges    | How it was solved?|
+| ------------- |:-----------------:| 
+|It was very challenging to integrate this with Pay 1.     | Issue was resolved at the end.  |
+
+ 
+
+
+####Swap Style
+#####Current Status:
+Completed.
+
+#####Project URL:
+swapstyle.com
+
+#####Web or Mobile:
+Project is web based
+
+#####Deployed?
+Project is Deployed.
+
+#####Technologies used:
+- Zend 2 Framework
+- Javascript
+- mysql
+
+#####Project Brief Description:
+This project is actually a web application built for a client. This application enables its users 
+to upload their clothing, glasses and hats etc. and exchange them with other people things. 
+
+#####Store Expo Testing
+Done by Software Testing Team.
+
+
+
+#####Challenges
+| Challenges    | How it was solved?|
+| ------------- |:-----------------:| 
+|Client asked that page should be leaded in 3 seconds not more.     | This issue was resolved by optimizing different things. The optimization was done according to the suggestions of a plugin named Yslow this plugin is provided in firefox browser. Image were Optimize, CSS compressed, sprite image were used in short whole of the front end of the application was optimized to load the web application in 3 seconds.  |
+
+
+
+
+
+####Love Knitting
+
+#####Current Status:
+Completed.
+
+#####Project URL:
+loveknitting.com
+
+#####Web or Mobile:
+Project is web based
+
+#####Deployed?
+Project is Deployed.
+
+#####Technologies used:
+- Magento
+- Zend 1 Framework
+- Javascript
+- mysql
+
+
+
+#####Store Expo Testing
+Done by Software Testing Team.
+
+
+
+#####Challenges
+| Challenges    | How it was solved?|
+| ------------- |:-----------------:| 
+|Integration of Enterprise 1.14 theme with community edition of magento. | It was eventually solved |
+|Client was very technical so he was ensuring all quality standards |followed every standard
+ |
+
+
+
+
+
+####At my Desk
+
+#####Current Status:
+Completed.
+
+#####Project URL:
+atmydesk.de
+
+#####Web or Mobile:
+Project is web based
+
+#####Deployed?
+Project is Deployed.
+
+#####Technologies used:
+- Zend 2 Framework
+- mysql
+
+
+
+#####Store Expo Testing
+Done by Software Testing Team.
+
+
+
+#####Challenges
+1) Nil because Mr. Ghulam Murtaza only Supervised this project
+
+#####Project Description:
+Project was a replica of desktime with a module of invoice generation on hourly working basis. 
+
