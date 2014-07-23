@@ -41,9 +41,9 @@ accordingly.
 
 #####Characteristics of Fixed Price Model Projects:
 
- ⋅⋅* Clear scope of project.
- ⋅⋅* Complete set of requirements.
- ⋅⋅* Client and service provider know well each other’s duties and capabilities, skills.
+ - Clear scope of project.
+ - Complete set of requirements.
+ - Client and service provider know well each other’s duties and capabilities, skills.
 
 ####2-  Time and Material (Cost-Plus/Dedicated developer contract)
 This Business Model is also known as cost plus. In this model the developers in Coeus Solutions are dedicated 
@@ -57,9 +57,9 @@ However, as project price starts to get out of hand, the client starts to questi
 often blame the them. 
 
 #####Characteristics of Time and Material Agreements
- ⋅⋅* Avoid the increased cost and time required for hashing out infinite details of how the app will work.
- ⋅⋅* Reduce the risk of unmet expectations.
- ⋅⋅* Give you the speed and agility to adjust to new information you learn from developing your customer.
+ - Avoid the increased cost and time required for hashing out infinite details of how the app will work.
+ - Reduce the risk of unmet expectations.
+ - Give you the speed and agility to adjust to new information you learn from developing your customer.
 
 ###Role of Mr. Ahsan Naseem in Coeus Solutions
 Mr. Ahsan Naseem is currently COO (Chief Operating Officer) in Coeus Solutions. He is leading/handling three 
@@ -68,9 +68,9 @@ if there is need to change in any of these department according to need or accor
 in Coeus Solutions Mr. Ali Naqi Shaheen.
 
 ###Tools Used @ Coeus
-⋅⋅* Active Collab for project management.
-⋅⋅* Github for version control system.
-⋅⋅* Operating System used are Windows, Linux (mainly ubuntu) and Mac OS.
+- Active Collab for project management.
+- Github for version control system.
+- Operating System used are Windows, Linux (mainly ubuntu) and Mac OS.
 
 Moreover  many other tools are used in company that differs from developer to developer, the type of technology they are 
 using for example the IOS development team will Xcode for software testing while web development team will use selenium 
@@ -86,10 +86,10 @@ that is required for suits well with the project is used. In this way Coeus Solu
 it comes to choice of a particular software development process. Following development life cycle are at least once
 used/exercised at Coeus.
 
-1) Iterative and incremental development.
-2) Agile development.
-3) Rapid application development.
-4) Waterfall development. 
+- 1) Iterative and incremental development.
+- 2) Agile development.
+- 3) Rapid application development.
+- 4) Waterfall development. 
 
 
 ###SAAP vs SAAS
