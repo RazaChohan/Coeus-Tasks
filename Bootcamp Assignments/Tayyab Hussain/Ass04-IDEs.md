@@ -91,4 +91,4 @@ PhpStorm IDE is for php language
 * PhpStorm is not free.
 
 ##Which IDE I like ?
-As i have also discussed with my senior here they told me about **PhpStorm** but it is not free so I do not have any experience of **PhpStorm**.But I have already worked on **Eclipse** for java, python in my academic session. I have also worked here on *NetBeans* for php. So, I am feasible with **Eclipse** and **NetBeans** both.
+As i have discussed with my senior here he told me about **PhpStorm** but it is not free so I do not have any experience of **PhpStorm**.But I have already worked on **Eclipse** for java, python in my academic session. I have also worked here on *NetBeans* for php. So, I am feasible with **Eclipse** and **NetBeans** both.
