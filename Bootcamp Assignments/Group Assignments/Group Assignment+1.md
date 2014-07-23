@@ -86,10 +86,10 @@ that is required for suits well with the project is used. In this way Coeus Solu
 it comes to choice of a particular software development process. Following development life cycle are at least once
 used/exercised at Coeus.
 
-- 1) Iterative and incremental development.
-- 2) Agile development.
-- 3) Rapid application development.
-- 4) Waterfall development. 
+- Iterative and incremental development.
+- Agile development.
+- Rapid application development.
+- Waterfall development. 
 
 
 ###SAAP vs SAAS
