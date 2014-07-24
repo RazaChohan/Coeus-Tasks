@@ -14,7 +14,7 @@ Still I'm carrying most important of them to me below:
 *	It is compulsory for employees to have Desktime Installed.
 
 	**Leave Policy:**
-*	Types of leave are CL, SL, PL, ML and LOP which are Casual Leave, Sick Leave, Privilege Leave, Maternity Leave (only for female staff) and Loss of Pay Leave respectively.
+*	Types of leave are  SL, PL, ML and LOP which are Sick Leave, Privilege Leave, Maternity Leave (only for female staff) and Loss of Pay Leave respectively.
 *	Leave year is from 1st July to 30th June.
 *	We are not allowed for leave during probation period except 2 sick leaves.
 *	All leaves should be approved by the concerned lead / supervisor.
@@ -23,7 +23,6 @@ Still I'm carrying most important of them to me below:
 *	CL and SL are ceased/lapsed after year.
 *	For max 2 years, PL if not used can be cached.
 *	Total number of leaves per year
-	*	8 CL
 	*	8 SL
 	*	18 PL
 	*	14 ML (*if applicable)
