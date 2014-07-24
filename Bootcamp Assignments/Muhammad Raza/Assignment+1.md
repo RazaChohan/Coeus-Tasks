@@ -109,7 +109,7 @@ Festival / Declared / Weekly off day, he is eligible for Compensatory off on any
 | Policy        |
 | ------------- |
 | An individual will be evaluated twice in the year on the basis of which appraisal, bonus and increment will be decided   |
-| Increment could be given twice in a year.     |
+| Bonus could be given twice in a year.     |
 | Increment is based on your performance. |
 
 
