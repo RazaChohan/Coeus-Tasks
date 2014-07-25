@@ -4,6 +4,10 @@ JSHint is a static code analysis tool used in software development for checking 
 
 http://blog.teamtreehouse.com/improving-code-quality-jshint
 
+__Slides__
+
+http://www.slideshare.net/kresimirantolic/code-quality-34322219?utm_campaign=ss_search&utm_medium=qf1&utm_source=1&qid=a777637b-d57c-4ec5-9b51-49bb5f0836de&v=qf1&b=&from_search=1
+
 ###JsLint
 
 JSLint, a tool for catching JavaScript bugs. Think of it as spell-check for JavaScript.
