@@ -20,6 +20,15 @@ http://mendicantbug.com/2008/11/30/10-reasons-to-use-git-for-research/
 
 http://www.lullabot.com/blog/article/handling-git-pull-automatic-merges
 
+http://www.vogella.com/tutorials/Git/article.html
+
 - GIT Tutorial on Branching (Explained Visually)
 
 https://www.atlassian.com/git/tutorial/git-branches
+
+http://pcottle.github.io/learnGitBranching/
+
+ - Best tutuorial , Built-in CLI to learn git through commands
+
+https://try.github.io/levels/1/challenges/1
+
