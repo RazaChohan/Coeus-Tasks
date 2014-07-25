@@ -1,4 +1,4 @@
-###Authroring/Abstraction
+###Authoring/Abstraction
 **CofeeScript**
 
 CoffeeScript is a little language that compiles into JavaScript.
