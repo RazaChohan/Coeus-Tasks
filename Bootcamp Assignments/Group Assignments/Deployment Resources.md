@@ -32,3 +32,6 @@ http://pcottle.github.io/learnGitBranching/
 
 https://try.github.io/levels/1/challenges/1
 
+- Slideshare Presentation 'Starting with Git and Github'  
+
+http://www.slideshare.net/nicotourne/starting-with-git-git-hub-27464735?utm_campaign=ss_search&utm_medium=default&utm_source=4&qid=659cab8c-86e9-4dc8-a28f-c36c1b2c39b4&v=default&b=&from_search=4
