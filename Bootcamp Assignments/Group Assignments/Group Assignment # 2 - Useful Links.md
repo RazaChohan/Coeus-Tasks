@@ -21,12 +21,17 @@ Its a Web Server use to handle client requests and generate response
 
 [http://code.tutsplus.com/tutorials/an-introduction-to-apache--net-25786](http://code.tutsplus.com/tutorials/an-introduction-to-apache--net-25786)
 
+http://www.mulesoft.com/tcat/understanding-apache-tomcat
+
+
 ----
 **MySql**
 
 MySql is open-source software use to store data in database
 
 [http://www.mysqltutorial.org/](http://www.mysqltutorial.org/)
+
+http://www.mysql.com/training/
 
 ----
 **codePen (playground)**
@@ -61,7 +66,8 @@ here are some boilerplates:-
 
 * Skeleton
 
-* HTML5   [http://www.sitepoint.com/introduction-html5-boilerplate/](http://www.sitepoint.com/introduction-html5-boilerplate/)
+* HTML5   
+[http://www.sitepoint.com/introduction-html5-boilerplate/](http://www.sitepoint.com/introduction-html5-boilerplate/)
 
 [http://blog.smartbear.com/web-development/5-truly-effective-css-boilerplates-and-frameworks/](http://blog.smartbear.com/web-development/5-truly-effective-css-boilerplates-and-frameworks/)
 
@@ -72,12 +78,17 @@ CoffeeScript is a little language that compiles into JavaScript.
 
 [http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript](http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript)
 
+http://coffeescript.codeschool.com/levels/1
+
+
 ----
 **OOCSS**
 
 Object oriented Cascading styles sheet use to reuse the code.
 
 [http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/](http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/)
+
+http://appendto.com/2014/04/oocss/
 
 ----
 **SMACSS**
@@ -137,12 +148,16 @@ Using FireBug you can edit, debug, and monitor CSS, HTML, and JavaScript live in
 
 [http://getfirebug.com/css](http://getfirebug.com/css)
 
+http://getfirebug.com/whatisfirebug
+
 ----
 **xDebug**
 
 Xdebug is a PHP extension which provides debugging funtionality.
 
 [http://www.sitepoint.com/debugging-and-profiling-php-with-xdebug/](http://www.sitepoint.com/debugging-and-profiling-php-with-xdebug/)
+
+http://bogdan-albei.blogspot.com/2010/06/php-remote-debugging-with-xdebug-and.html
 
 ----
 **PhpUnit/qUnit**
