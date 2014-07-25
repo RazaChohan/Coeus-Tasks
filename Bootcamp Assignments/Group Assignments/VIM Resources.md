@@ -22,3 +22,6 @@ http://pascalprecht.github.io/2014/03/18/why-i-use-vim/
 
 http://dailyvim.blogspot.com/
 
+- Slideshare Presentation 'VIM for PHP Programmers'
+
+http://www.slideshare.net/andreizm/vim-for-php-programmers-pdf?related=1&utm_campaign=related&utm_medium=1&utm_source=4
