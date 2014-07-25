@@ -3,7 +3,7 @@
 ###									  Milestone Week 1
 
 ###								  Individual Assignment #1
-##3										HR-Policies
+###										HR-Policies
 
 ###										Muhammad Raza 
 ####				Associate Software Engineer @ Coeus-Solutions GmBH
