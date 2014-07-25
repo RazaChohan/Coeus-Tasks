@@ -151,5 +151,7 @@ Version control system, Source-Code management System use for data integrity and
 
 [1]:http://www.vim.org/download.php
 
+Vim Interactive learning Tutorial
 
+http://www.openvim.com/tutorial.html
 
