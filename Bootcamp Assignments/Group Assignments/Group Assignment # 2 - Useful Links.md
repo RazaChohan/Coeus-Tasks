@@ -186,3 +186,8 @@ Why one should learn VIM
 
 http://pascalprecht.github.io/2014/03/18/why-i-use-vim/
 
+Daily VIM Blog
+
+
+http://dailyvim.blogspot.com/
+
