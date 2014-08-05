@@ -10,6 +10,10 @@ Vim Interactive learning Tutorial
 
 http://www.openvim.com/tutorial.html
 
+Another Best tutorial
+
+http://linuxconfig.org/vim-tutorial
+
 - Using Vim Editor as an IDE
 
 http://vim.wikia.com/wiki/Use_Vim_like_an_IDE
