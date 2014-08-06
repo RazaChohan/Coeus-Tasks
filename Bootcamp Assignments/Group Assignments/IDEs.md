@@ -17,6 +17,10 @@ Another
 
 http://docs.oracle.com/javase/tutorial/getStarted/cupojava/netbeans.html
 
+Slideshare Presenation on Netbeans IDE
+
+http://www.slideshare.net/AtulPalandurkar/net-beans-ide-platform?related=1&utm_campaign=related&utm_medium=1&utm_source=9
+
 
 [Downloading, Installing and Launching Netbeans][2]
 

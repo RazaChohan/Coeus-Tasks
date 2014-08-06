@@ -10,6 +10,10 @@ Vim Interactive learning Tutorial
 
 http://www.openvim.com/tutorial.html
 
+Another Best tutorial
+
+http://linuxconfig.org/vim-tutorial
+
 - Using Vim Editor as an IDE
 
 http://vim.wikia.com/wiki/Use_Vim_like_an_IDE
@@ -22,3 +26,6 @@ http://pascalprecht.github.io/2014/03/18/why-i-use-vim/
 
 http://dailyvim.blogspot.com/
 
+- Slideshare Presentation 'VIM for PHP Programmers'
+
+http://www.slideshare.net/andreizm/vim-for-php-programmers-pdf?related=1&utm_campaign=related&utm_medium=1&utm_source=4

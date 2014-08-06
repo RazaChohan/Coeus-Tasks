@@ -26,4 +26,7 @@ MySql is open-source software use to store data in database
 
 http://www.mysql.com/training/
 
+
+Slideshare Presentation 'Mysql Architecture and Concepts'
+http://www.slideshare.net/TuyenVuongDinh/mysql-architectures?utm_campaign=ss_search&utm_medium=qf1&utm_source=3&qid=a85746c5-3af9-400a-8caa-372fb1e744eb&v=qf1&b=&from_search=3
 ----
